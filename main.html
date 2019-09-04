@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Application</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div id="searchContainer">
+    <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+    <button class="searchControl" id="searchBtn">Search</button>
+    
+  </div>
+    <div class="weatherContainer">
+      <div id="weatherDescription">
+        <h1 id="city-name"></h1>
+        <div id="weathermain">
+          <div id="temperature"></div>
+          <div id="weatherDescriptionHeader"></div>
+          <div><img id="documentIconImg"></div>
+        </div>
+        <hr>
+        <div id="windSpeed" class="bottomDetails"></div>
+        <div id="humidity" class="bottomDetails"></div>
+      </div>
+       
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
